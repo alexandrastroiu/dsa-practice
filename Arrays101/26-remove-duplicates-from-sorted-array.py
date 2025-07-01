@@ -1,3 +1,11 @@
+# Problem: 26. Remove Duplicates from Sorted Array
+# Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
 class Solution(object):
     def removeDuplicates(self, nums):
         """

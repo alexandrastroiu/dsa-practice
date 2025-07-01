@@ -1,3 +1,11 @@
+# Problem: 941. Valid Mountain Array
+# Link: https://leetcode.com/problems/valid-mountain-array/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
 class Solution(object):
     def validMountainArray(self, arr):
         """

@@ -4,6 +4,7 @@
 
 
 # Time Complexity: O(n)
+# Space Complexity: O(n)
 
 
 class Solution(object):

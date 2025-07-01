@@ -2,7 +2,8 @@
 # Link: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
 
-# Time Complexity: O(n)
+# Time Complexity: O(n) (O(nlog(m)) where m is the largest value in the input array)
+# Space Complexity: O(1)
 
 
 class Solution(object):
@@ -18,7 +19,7 @@ class Solution(object):
 
             while current_number != 0:
                 digits += 1
-                current_number /= 10
+                current_number //= 10
 
             if digits % 2 == 0:
                 even_digits_num += 1

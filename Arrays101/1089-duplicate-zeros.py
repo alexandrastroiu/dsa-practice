@@ -1,3 +1,11 @@
+# Problem: 1089. Duplicate Zeros
+# Link: https://leetcode.com/problems/duplicate-zeros/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
 class Solution(object):
     def duplicateZeros(self, arr):
         """

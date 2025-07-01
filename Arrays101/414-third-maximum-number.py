@@ -1,3 +1,11 @@
+# Problem: 414. Third Maximum Number
+# Link: https://leetcode.com/problems/third-maximum-number/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
 class Solution(object):
     def thirdMax(self, nums):
         """

@@ -1,3 +1,11 @@
+# Problem: 1051. Height Checker
+# Link: https://leetcode.com/problems/height-checker/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+
 class Solution(object):
     def heightChecker(self, heights):
         """

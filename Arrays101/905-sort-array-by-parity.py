@@ -1,3 +1,11 @@
+# Problem: 905. Sort Array By Parity
+# Link: https://leetcode.com/problems/sort-array-by-parity/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
 class Solution(object):
     def sortArrayByParity(self, nums):
         """

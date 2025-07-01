@@ -1,3 +1,11 @@
+# Problem: 448. Find All Numbers Disappeared in an Array
+# Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(1) (assume the returned list does not count as extra space)
+
+
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
