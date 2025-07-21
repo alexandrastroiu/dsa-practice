@@ -2,7 +2,7 @@
 # Link: https://leetcode.com/problems/height-checker/
 
 
-# Time Complexity: O(n)
+# Time Complexity: O(nlog(n))
 # Space Complexity: O(n)
 
 
@@ -12,10 +12,10 @@ class Solution(object):
         :type heights: List[int]
         :rtype: int
         """
-        expected = sorted(heights)
+        expected = sorted(heights)  # O(nlog(n))
         count = 0
 
-        for i in range(len(heights)):
+        for i in range(len(heights)):  # O(n)
             if expected[i] != heights[i]:
                 count += 1
 
