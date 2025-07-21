@@ -1,6 +1,9 @@
 # Problem: 747. Largest Number At Least Twice of Others
 # Link: https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 
 class Solution(object):
     def dominantIndex(self, nums):

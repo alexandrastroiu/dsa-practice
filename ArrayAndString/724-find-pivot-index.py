@@ -1,6 +1,9 @@
 # Problem: 724. Find Pivot Index
 # Link: https://leetcode.com/problems/find-pivot-index/
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 
 class Solution(object):
     def pivotIndex(self, nums):

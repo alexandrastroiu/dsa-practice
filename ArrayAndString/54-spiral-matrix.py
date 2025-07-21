@@ -1,6 +1,12 @@
 # Problem: 54. Spiral Matrix
 # Link: https://leetcode.com/problems/spiral-matrix/
 
+# Time Complexity: O(m * n)
+# (m = rows of the input matrix, n = columns of the input matrix)
+# (every element of the matrix is visited exactly once)
+# Space Complexity: O(m * n)
+# (the spiral_order list contains m * n elements - all the elements of the matrix in spiral order)
+
 
 class Solution(object):
     def spiralOrder(self, matrix):

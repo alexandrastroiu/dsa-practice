@@ -1,6 +1,9 @@
 # Problem: 189. Rotate Array
 # Link: https://leetcode.com/problems/rotate-array/
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 
 class Solution(object):
     def rotate(self, nums, k):

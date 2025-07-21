@@ -1,6 +1,11 @@
 # Problem: 118. Pascal's Triangle
 # Link: https://leetcode.com/problems/pascals-triangle/
 
+# Time Complexity: O(n ^ 2)
+# Space Complexity: O(n ^ 2)
+# (the result list stores all rows, each row is a list of integers)
+# (the total numbers of elements stored in the result list is n/(n + 1)/2 where n = numRows)
+
 
 class Solution(object):
     def generate(self, numRows):

@@ -1,6 +1,9 @@
 # Problem: 14. Longest Common Prefix
 # Link: https://leetcode.com/problems/longest-common-prefix/
 
+# Time Complexity: O(m * n) (m = the length of the shortest word in strs, n = the number of words in strs)
+# Space Complexity: O(k)    (m = the length of th longest common prefix)
+
 
 class Solution(object):
     def longestCommonPrefix(self, strs):

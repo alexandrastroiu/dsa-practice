@@ -1,6 +1,10 @@
 # Problem: 498. Diagonal Traverse
 # Link: https://leetcode.com/problems/diagonal-traverse/
 
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+# ( m = rows of the input matrix, n = columns of the input matrix)
+
 
 class Solution(object):
     def findDiagonalOrder(self, mat):

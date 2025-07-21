@@ -1,6 +1,9 @@
 # Problem: 209. Minimum Size Subarray Sum
 # Link: https://leetcode.com/problems/minimum-size-subarray-sum/
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 
 class Solution(object):
     def minSubArrayLen(self, target, nums):

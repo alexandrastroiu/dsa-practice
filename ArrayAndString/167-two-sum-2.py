@@ -1,6 +1,11 @@
 # Problem: 167. Two Sum II - Input Array Is Sorted
 # Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
+# Time Complexity: O(n)
+# (suing a two-pointer approach)
+# Space Complexity: O(1)
+# (there is no additional space used that grows with input size)
+
 
 class Solution(object):
     def twoSum(self, numbers, target):

@@ -1,6 +1,10 @@
 # Problem: 67. Add Binary
 # Link: https://leetcode.com/problems/add-binary/
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# (n = max(len(a), len(b) -  the maximum length of the two binary strings)
+
 
 class Solution(object):
     def addBinary(self, a, b):
@@ -16,7 +20,7 @@ class Solution(object):
         carry = 0
         binary_sum = []
 
-        while i >= 0 or j >= 0:
+        while i >= 0 or j >= 0:  # O(n)
 
             if i >= 0 and j >= 0:
                 current_sum = ((int(a[i]) + int(b[j])) % 2 + carry) % 2
@@ -37,6 +41,7 @@ class Solution(object):
 
         if carry == 1:
             binary_sum.append(str(carry))
+            # the list binary_sum can have n + 1 elements at most, in case of carry
 
-        binary_sum.reverse()
-        return "".join(binary_sum)
+        binary_sum.reverse()  # O(n)
+        return "".join(binary_sum)  # O(n)

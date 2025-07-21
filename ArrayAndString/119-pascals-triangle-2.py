@@ -1,6 +1,9 @@
 # Problem: 119. Pascal's Triangle II
 # Link: https://leetcode.com/problems/pascals-triangle-ii/
 
+# Time Complexity: O(n ^ 2)
+# Space Complexity: O(n)
+
 
 class Solution(object):
     def getRow(self, rowIndex):
