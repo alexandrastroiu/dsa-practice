@@ -1,3 +1,7 @@
+# Problem: 387. First Unique Character in a String
+# Link: https://leetcode.com/problems/first-unique-character-in-a-string/
+
+
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         # initialize the hash map
