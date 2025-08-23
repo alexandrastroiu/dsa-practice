@@ -12,7 +12,7 @@ def add_edge(list, source, dest):
     list[dest].append(source)
 
 
-# Function used to display the adjacency matrix of the graph
+# Function used to display the adjacency list of the graph
 def display_list(list):
     print("Adjacency List Representation")
 
