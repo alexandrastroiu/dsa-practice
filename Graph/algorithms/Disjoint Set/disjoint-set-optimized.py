@@ -27,7 +27,7 @@ class UnionFind:
             self.parent[parent_x] = parent_y
         else:
             self.parent[parent_x] = parent_y
-            self.rank[parent_x] += 1
+            self.rank[parent_y] += 1
 
     # function to check if two elements are in the same set
     def is_connected(self, x, y):
